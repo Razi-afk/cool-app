@@ -4,12 +4,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
+    <a href="https://classroom.google.com" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
-    <a href="https://vuejs.org/" target="_blank">
+    <a href="https://classroom.google.com" target="_blank" title="Bet you hate google classroom">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+  </div>
+  <div>
+    <h1>This is a new low</h1>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
@@ -26,5 +29,8 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+a{
+ padding: 10px;
 }
 </style>
