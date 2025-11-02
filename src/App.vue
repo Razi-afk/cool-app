@@ -4,15 +4,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <a href="https://classroom.google.com" target="_blank">
+    <a href="https://classroom.google.com" target="_blank" title="gg">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://classroom.google.com" target="_blank" title="Bet you hate google classroom">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <img src= "./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
   <div>
     <h1>This is a new low</h1>
+    <p><a href="/second.html" title="Go to the second page">Go to the Second Page</a></p>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
